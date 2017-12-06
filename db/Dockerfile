@@ -1,4 +1,4 @@
-M mysql:5.7
+FROM mysql:latest
 ENV MYSQL_ROOT_PASSWORD="welcome1"
 ENV MYSQL_DATABASE="dku"
 ENV MYSQL_USER="dku"
